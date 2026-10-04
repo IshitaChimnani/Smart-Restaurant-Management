@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🍽️ Smart Restaurant</h1>
+        <p>Smart Restaurant Management & Ordering System</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Our Menu</h2>
+
+            <div id="menu">
+                Loading menu...
+            </div>
+        </section>
+
+        <section class="order-section">
+
+            <h2>Place Your Order</h2>
+
+            <input
+                type="text"
+                id="customerName"
+                placeholder="Enter your name"
+            >
+
+            <div id="cart"></div>
+
+            <button onclick="placeOrder()">
+                Place Order
+            </button>
+
+            <p id="message"></p>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
